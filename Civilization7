@@ -1,0 +1,88 @@
+civilizations.json
+```
+{
+  "civilizations": [
+    {
+      "civilization": "Brazil",
+      "description": "A civilização brasileira",
+      "icon": "icon_brazil",
+      "uniqueUnit": "Minas Gerais",
+      "uniqueBuilding": "Copa Cabana",
+      "uniqueAbility": "Carnaval",
+      "startBias": "Coast",
+      "playable": true
+    }
+  ]
+}
+```
+
+units.json
+```
+{
+  "units": [
+    {
+      "unit": "Minas Gerais",
+      "description": "Encouraçado brasileiro",
+      "cost": 150,
+      "combat": 40,
+      "rangedCombat": 30,
+      "movement": 4,
+      "range": 1,
+      "icon": "icon_minas_gerais"
+    }
+  ]
+}
+```
+
+buildings.json
+```
+{
+  "buildings": [
+    {
+      "building": "Copa Cabana",
+      "description": "Famoso local de entretenimento",
+      "cost": 100,
+      "maintenance": 2,
+      "replaces": "Circo",
+      "icon": "icon_copa_cabana"
+    }
+  ]
+}
+```
+
+abilities.json
+```
+{
+  "abilities": [
+    {
+      "ability": "Carnaval",
+      "description": "Aumenta desenvolvimento de Grandes Personalidades em 25%",
+      "effect": {
+        "Condition": "Happiness",
+        "Modifier": 1.25,
+        "Target": "GreatPersonality"
+      }
+    }
+  ]
+}
+```
+
+icons.json
+```
+{
+  "icons": [
+    {
+      "icon": "icon_brazil",
+      "texture": "icon_brazil.png"
+    },
+    {
+      "icon": "icon_minas_gerais",
+      "texture": "icon_minas_gerais.png"
+    },
+    {
+      "icon": "icon_copa_cabana",
+      "texture": "icon_copa_cabana.png"
+    }
+  ]
+}
+```
